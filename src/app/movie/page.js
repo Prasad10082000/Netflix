@@ -7,7 +7,7 @@ const Movie = async () => {
 
   await new Promise(resolve => setTimeout(resolve, 2000));
 
-  const url = "https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=50&limit_suggestions=20/&lang=en";
+  const url = "https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=20&limit_suggestions=20/&lang=en";
 
   const options = {
     method: "GET",
